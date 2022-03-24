@@ -35,6 +35,7 @@ Currently the repository includes following tools:
 | nydusctl                 | Nydusd CLI client, query daemon's working status/metrics and configure it                                                                           |
 | ctr-remote               | An enhanced `containerd` CLI tool enable nydus support with `containerd ` ctr                                                                       |
 | nydus-docker-graphdriver | Works as a `docker` remote graph driver to control how images and containers are stored and managed                                                 |
+| [nydus-backend-proxy](./contrib/nydus-backend-proxy/README.md)                                                         | A simple HTTP server to serve local directory as a blob backend for nydusd            |
 
 To try nydus image service:
 
